@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual ECE Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🔬 Virtual ECE Lab</a>
+        </div>
+    </nav>
+
+    <header class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-8 mx-auto">
+                <h1 class="fw-light">Analog & Linear Electronic Circuits</h1>
+                <p class="lead text-muted">A digital laboratory for engineering students to read theory, simulate circuits, and plot characteristics in real-time.</p>
+                <p>
+                    <a href="#experiments" class="btn btn-primary my-2">View Experiments</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="experiments">
+        <h2 class="mb-4 border-bottom pb-2">Experiment Library</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">1. PN Junction Diode</h5>
+                        <p class="card-text">Study the Forward and Reverse bias V-I characteristics of a standard PN junction diode.</p>
+                        <a href="experiments/diode.html" class="btn btn-outline-primary">Start Experiment</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm bg-secondary text-white opacity-75">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Zener Diode Regulator (Coming Soon)</h5>
+                        <p class="card-text">Analyze the voltage regulation characteristics of a Zener diode.</p>
+                        <button class="btn btn-light disabled">Start Experiment</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
