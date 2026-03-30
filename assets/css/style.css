@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 8px;
+}
+.card-header {
+    font-weight: 600;
+}
+#diodeChart {
+    max-height: 400px;
+}
